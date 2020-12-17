@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midware practical test</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!--Titles-->
+    <h1> Progress Bar - Midware Test </h1>
+    <h2>Calculate the progress given two numbers</h2>
+
+    <!--Instructions-->
+    <p id="instText">
+      <strong>Instructions:</strong> <br>
+      Quantity input: Write a number, it's the max quantity. <br>
+      Goal input: Write a number to calculate the percentage. <br>
+      The progress bar will change automatically.
+    </p>
+
+    <!--Quantity input-->
+    <div class="input__cont">
+      <label for="quantity">Quantity</label>
+      <input type="number" id="quantity" placeholder="Please, enter a number" />
+    </div>
+
+    <!--Goal input-->
+    <div class="input__cont">
+      <label for="goal">Goal</label>
+      <input type="number" id="goal" placeholder="Please, enter a number" />
+    </div>
+
+    <!--Progress bar-->
+    <div id="progress">
+      <div id="bar">0%</div>
+    </div>
+
+    <!--Hide/show elements-->
+    <h3>Hide/Show elements</h3>
+
+    <div class="button__cont">
+      <button class="button" id="hideInstructions">Hide/Show instructions</button>
+      <button class="button" id="hideBar">Hide/Show progress</button>
+      <button class="button" id="hideDeveloper">Hide/show developer</button>
+    </div>
+
+    <!--Developer information-->
+    <div class="text__cont" id="developerInfo">
+      <h3>Webpage developed by: Juan D. Esquivel</h3>
+    </div>
+
+    <script src="javascriptTest.js"></script>
+
+  </body>
+</html>
